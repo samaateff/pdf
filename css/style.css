@@ -80,8 +80,15 @@ a {
     text-decoration: none !important;
 
 }
-.container{
+.container.fluid{
     width: 80% !important;
+}
+.col-md-12, .com-md-6, .col-md-7, .col-md-5{
+    padding: 0 !important;
+}
+.container{
+    width: 100% !important;
+    max-width: 100% !important;
 }
 /* top nav */
 .topheaderback{
@@ -393,5 +400,8 @@ a {
             margin: auto;
             margin-top: -40px;
             margin-bottom: 12px;
+        }
+        img{
+            max-width: 100%;
         }
 }
