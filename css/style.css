@@ -380,4 +380,18 @@ a {
         .second-even p {
             max-width: unset;
         }
+        .last-btn{
+            margin: auto !important;
+            display: block;
+        }
+        .last-img{
+            max-width: 100%;
+        }
+        .css-1em82ul {
+            text-align: center;
+            /* display: block; */
+            margin: auto;
+            margin-top: -40px;
+            margin-bottom: 12px;
+        }
 }
