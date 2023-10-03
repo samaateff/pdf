@@ -375,7 +375,7 @@ a {
        margin-top:unset;
         }
       .second-even  .flower-before , .flower::after , .flower::before{
-            display: none;
+            display: none !important;
         }
         .second-even p {
             max-width: unset;
