@@ -224,8 +224,11 @@ a {
     /* z-index: 5; */
     
 }
-.homesection ,.second-even{
+.homesection ,.second.second-even{
     background: antiquewhite;
+}
+.second{
+    background: bisque;
 }
 .second-desc{direction: ltr;
 
@@ -420,5 +423,9 @@ a {
         .second p {
             
             max-width: unset;
+        }
+        .second, .second-even {
+            padding: 10px;
+            margin: 10px;
         }
 }
