@@ -382,7 +382,7 @@ a {
    
    margin-top:unset;
     }
-    .flower-before , .flower::after , .flower::before{
+    .flower::after , .flower::before{
         display: none;
     }
 
@@ -395,7 +395,7 @@ a {
        
        margin-top:unset;
         }
-      .second-even  .flower-before , .flower::after , .flower::before{
+        .flower::after , .flower::before{
             display: none !important;
         }
         .second-even p {
@@ -427,5 +427,18 @@ a {
         .second, .second-even {
             padding: 10px;
             margin: 10px;
+        }
+       
+        .second-even  .flower-before{
+          right: 15em;
+        }
+        .flower-before {
+            right: 25px;
+        }
+        .second p {
+            font-size: 16px;
+        }
+        .second h2 {
+            font-size: 25px;
         }
 }
