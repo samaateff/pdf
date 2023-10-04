@@ -370,8 +370,13 @@ a {
     display: flex;
 }
 .css-1em82ul {
-    margin-top: -40px;
-    margin-left: 145px;
+   display: flex;   
+   justify-content: center;
+   margin-bottom: 1em;
+}
+.last-flower-img{
+    margin:2em  auto;
+    display: block;
 }
 @media (max-width:767px){
     .second-desc-min{
@@ -431,14 +436,26 @@ a {
        
         .second-even  .flower-before{
           right: 15em;
+          width: 80px;
+          height: 80px;
         }
         .flower-before {
             right: 25px;
+            width: 80px;
+            height: 80px;
         }
+     
         .second p {
             font-size: 16px;
         }
         .second h2 {
             font-size: 25px;
+        }
+        .flower-before span:nth-of-type(1) {
+            font-size: 25px !important;
+           
+        }
+        .last-flower-img {
+            margin-bottom: 4em;
         }
 }
